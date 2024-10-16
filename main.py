@@ -1,4 +1,5 @@
-def twoSum(nums: list[int], target : int) -> list[int]:
+from typing import List
+def twoSum(nums: List[int], target : int) -> List[int]:
     ret_Pair=[]
 
     twoNums=[[[first_val, fisrt_idx], [second_val, second_idx]]
